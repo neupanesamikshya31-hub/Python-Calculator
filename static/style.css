@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.number-button{
+    background-color:gray;
+    color:white;
+    text-align: center;
+}
+
+.button-row{
+    border-radius: 20px;
+    display:flex;
+    gap:10px;
+    margin-bottom: 10px;
+
+}
+.number-button,
+.blue-button {
+    width: 60px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.blue-button{
+    background-color:aliceblue;
+    
+}
+
+.display input{
+    border:none;
+    background: transparent;
+    width:260px;
+    height:55px;
+    text-align:right;
+    font-size:28px;
+    outline:none;
+}
