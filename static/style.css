@@ -21,14 +21,15 @@ body{
 
 }
 .number-button,
-.blue-button {
+.blue-button,
+.operator-button {
     width: 60px;
     height: 55px;
     border: none;
     border-radius: 10px;
     font-size: 24px;
 }
-.blue-button{
+.operator-button{
     background-color:aliceblue;
     
 }
